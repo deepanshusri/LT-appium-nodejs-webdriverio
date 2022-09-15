@@ -1,6 +1,6 @@
 exports.config = {
-  user: process.env.LT_USERNAME || "YOUR_USERNAME",
-  key: process.env.LT_ACCESS_KEY || "YOUR_ACCESS_KEY",
+  user: process.env.LT_USERNAME || "deepanshulambdatest",
+  key: process.env.LT_ACCESS_KEY || "jlBs32Zt7Q6Omx3ZThhWz1GTAzNQe96m7MP2Z6645UuZ2oVqTo",
 
   updateJob: false,
   specs: ["specs/android-test.js"],
@@ -14,7 +14,7 @@ exports.config = {
       platformName: "Android",
       deviceName: "Galaxy S9",
       platformVersion: "10",
-      app: "YOUR_APP_URL", //Set your APP URL
+      app: "APP10160271581663179146005422", //Set your APP URL
     },
   ],
 
