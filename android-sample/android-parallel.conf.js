@@ -1,6 +1,6 @@
 exports.config = {
-  user: process.env.LT_USERNAME || "YOUR_USERNAME",
-  key: process.env.LT_ACCESS_KEY || "YOUR_ACCESS_KEY",
+  user: process.env.LT_USERNAME || "deepanshulambdatest",
+  key: process.env.LT_ACCESS_KEY || "jlBs32Zt7Q6Omx3ZThhWz1GTAzNQe96m7MP2Z6645UuZ2oVqTo",
 
   updateJob: false,
   specs: ["specs/android-test.js"],
@@ -10,7 +10,7 @@ exports.config = {
     build: "NodeJS WebdriverIO Android",
     name: "Sample Parallel Test - WebDriverIO",
     isRealMobile: true,
-    app: "YOUR_APP_URL",
+    app: "jlBs32Zt7Q6Omx3ZThhWz1GTAzNQe96m7MP2Z6645UuZ2oVqTo",
   },
 
   capabilities: [
