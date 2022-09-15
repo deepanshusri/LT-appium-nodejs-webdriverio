@@ -17,4 +17,4 @@ jobs:
 
     steps:
     - run: npm i
-    - run: npm run parallelAndroid
+    - run: npm run singleAndroid
